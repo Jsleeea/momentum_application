@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='UTF-8'/>
+		<meta http-equiv='X-UA-Compatible' content='IE=edge'/>
+		<link rel="stylesheet" href="css/style.css">
+		<title>Momentum App</title>
+	</head> 
+	<body>
+		<div class='screen background-img'>
+			
+			<div class='clock-section hidden'>
+				<h2 id='clock'>00:00</h2>
+			</div>
+			
+			<div class='hello-section'>
+				Hello, what's your name?
+			</div>
+			
+			<div class='login-section'>
+				<form class ='hidden' id='login-form'>	
+					<input class ='input_name-section' required 
+			   		maxlength='15' 
+			   		type='text' 
+		    		/>
+					<!--<input type ='submit' value='Log In'/> -->
+				</form>  
+			</div>
+			
+			<div class='greeting-section'>
+				<h1 id = 'greeting' class = 'hidden'></h1>
+			</div>
+			
+			<p id='main-focus' class = 'hidden'>
+				what is your main focus for today?
+			</p>
+			<form id='todo-form' class = 'hidden'>
+				<input type='text' required/>
+			</form>
+			<ul id = 'todo-list'></ul>
+			
+			<div class='quotes-section hidden'>
+				<p id= 'quotes'>
+					Happiness is not about getting all you want, it is about enjoying all you have.
+				</p>
+			</div>
+			
+			<script src='js/greetings.js'></script>
+			<script src='js/clock.js'></script>
+			<script src='js/quotes.js'></script>
+			<script src='js/background.js'></script>
+			<script src='js/todo.js'></script>
+
+			<!--<script src='js/background1.js'></script>-->
+		</div>
+	</body>
+</html>
+
+<!--
+background img 정리 사이트
+https://softauthor.com/css-make-background-image-full-screen/
+-->
